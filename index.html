@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Document</title>
+</head>
+
+<body class="flex flex-wrap justify-center">
+    <header class="w-full h-[150px] flex justify-center flex-wrap bg-white 2xl:container mx-auto">
+        <div class="h-2/5 w-[90%] flex px-4 bg-blue-900">
+            <div class="flex items-center justify-center w-full h-full gap-4 xl:w-1/2 xl:justify-start">
+                <p class="text-white w-[90px] text-[12px] text-center">Connect With Us</p>
+                <ul class="flex items-center justify-start gap-3 *:w-[30px] *:h-[30px] *:flex *:justify-center *:items-center *:border *:border-white *:rounded">
+                    <li class="duration-300 hover:scale-105 hover:bg-[rgb(255,0,0)]"><a class="flex items-center justify-center w-full h-full" href="#"><i class="text-[15px] text-white fab fa-youtube"></i></a></li>
+                    <li class="duration-300 hover:scale-105 hover:bg-[rgb(24,119,242)]"><a class="flex items-center justify-center w-full h-full" href="#"><i class="text-[15px] text-white fab fa-facebook-f"></i></a></li>
+                    <li class="duration-300 hover:scale-105 hover:bg-[rgb(228,64,95)]"><a class="flex items-center justify-center w-full h-full" href="#"><i class="text-[15px] text-white fab fa-instagram"></i></a></li>
+                    <li class="duration-300 hover:scale-105 hover:bg-[rgb(29,161,242)]"><a class="flex items-center justify-center w-full h-full" href="#"><i class="text-[15px] text-white fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <nav class="hidden h-full xl:flex xl:w-1/2">
+                <ul class="flex items-center justify-end w-full gap-1 *:flex *:items-center *:justify-center *:w-[12%] *:h-[80%] *:rounded">
+                    <li class="duration-500 hover:bg-slate-400"><a class="text-white text-[11px]" href="#">Manifesto</a></li>
+                    <li class="duration-500 hover:bg-slate-400"><a class="text-white text-[11px]" href="#">HelpLind</a></li>
+                    <li class="text-center duration-500 hover:bg-slate-400"><a class="text-white text-[11px]" href="#">Become a Volunteer</a></li>
+                    <li class="duration-500 hover:bg-slate-400"><a class="text-white text-[11px]" href="#">Events</a></li>
+                    <li class="duration-500 hover:bg-slate-400"><a class="text-white text-[11px]" href="#">Support Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="flex flex-wrap items-center mx-auto w-[90%] justify-evenly h-3/5 bg-white md:w-[90%] 2xl:container">
+            <figure class="w-1/2 h-full flex justify-start items-center lg:w-[27.5%]">
+                <img class="w-[200px] h-[45px] px-2" src="img/avada-campaign-logo-1.png" alt="">
+            </figure>
+            <nav class="hidden h-full lg:flex lg:w-[45%] bg-white">
+                <ul class="flex flex-wrap items-center justify-center w-full gap-5 xl:gap-9">
+                    <li><a class="text-[15px] xl:text-[18px] text-blue-400 relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-[2px] after:bg-red-500 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100" href="#">Home</a></li>
+                    <li class="relative group"><a class="text-[15px] xl:text-[18px] hover:text-blue-400 hover:duration-300 relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-[2px] after:bg-red-500 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100" href="#">About <i class="text-xs fas fa-chevron-down"></i></a>
+                        
+                        <ul class="z-30 group-hover:opacity-100 group-hover:visible group-hover:duration-300 group-hover:ease-in-out opacity-0 invisible duration-300 w-[700px] h-[300px] overflow-hidden absolute left-[-300px] top-[59px]">
+                            <li class="flex items-center w-full h-full bg-white justify-evenly">
+                                <figure class="w-[30%] h-[90%]">
+                                    <img class="object-cover w-full h-full" src="img/about-campaign-menu-1.jpg" alt="">
+                                </figure>
+                                <div class="w-[30%] h-[90%] bg-blue-900">
+                                    <div class="w-full pl-8 text-white pt-7 h-4/6">
+                                        <h6 class="mb-5 font-bold">Support Us</h6>
+                                        <ul class="w-full h-full">
+                                            <li class="py-1"><a class="text-sm hover:text-blue-300" href="">Manifesto</a></li>
+                                            <li class="py-1"><a class="text-sm hover:text-blue-300" href="">Helpline</a></li>
+                                            <li class="py-1"><a class="text-sm hover:text-blue-300" href="">Become a Volunteer</a></li>
+                                            <li class="py-1"><a class="text-sm hover:text-blue-300" href="">Events</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="flex items-center justify-center w-full h-2/6">
+                                        <span class="mt-2 text-2xl text-slate-500">#Election</span>
+                                    </div>
+                                </div>
+                                <div class="w-[30%] h-[90%] bg-gray-50">
+                                    <h6 class="pt-8 pl-8 mb-2 font-bold">Take Action</h6>
+                                    <ul class="w-full h-full pl-8">
+                                        <li class="w-[80%] border-b-2 border-solid border-b-gray-400 py-2 hover:border-b-black duration-300">
+                                            <a class="flex items-center text-2xl text-gray-400 duration-300 group hover:text-red-500" href=""><i class="mr-4 text-base duration-300 fas fa-chevron-right group-hover:translate-x-2"></i>Join</a>
+                                        </li>
+                                        <li class="w-[80%] border-b-2 border-solid border-b-gray-400 py-2 hover:border-b-black duration-300">
+                                            <a class="flex items-center text-2xl text-gray-400 duration-300 group hover:text-red-500" href=""><i class="mr-4 text-base duration-300 fas fa-chevron-right group-hover:translate-x-2"></i>Renew</a>
+                                        </li>
+                                            <li class="w-[80%] border-b-2 border-solid border-b-gray-400 py-2 hover:border-b-black duration-300">
+                                            <a class="flex items-center text-2xl text-gray-400 duration-300 group hover:text-red-500" href=""><i class="mr-4 text-base duration-300 fas fa-chevron-right group-hover:translate-x-2"></i>Donate</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="relative group"><a class="text-[15px] xl:text-[18px] hover:text-blue-400 hover:duration-300 relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-[2px] after:bg-red-500 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100" href="#">Pages <i class="text-xs fas fa-chevron-down"></i></a>
+                    
+                        <nav class="z-30 absolute left-[-50px] duration-300 w-[250px] h-[160px] bg-transparent flex items-end opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:duration-300 group-hover:ease-in-out">
+                            <ul class="w-full h-[128px] group-hover: overflow-hidden bg-white flex flex-col justify-evenly *:w-full *:border-b-2 *:border-gray-200 *:h-full *:flex *:items-center *:duration-300">
+                                <li class="hover:bg-blue-800"><a class="w-full px-4" href="">Meet Our Candidate</a></li>
+                                <li class="hover:bg-blue-800"><a class="w-full px-4" href="">Events</a></li>
+                                <li class="hover:bg-blue-800"><a class="w-full px-4" href="">Take Action</a></li>
+                            </ul>
+                        </nav>
+                    
+                    </li>
+                    <li><a class="text-[15px] xl:text-[18px] hover:text-blue-400 hover:duration-300 relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-[2px] after:bg-red-500 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100" href="#">Store</a></li>
+                    <li><a class="text-[15px] xl:text-[18px] hover:text-blue-400 hover:duration-300 relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-[2px] after:bg-red-500 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100" href="#">News</a></li>
+                    <li><a class="text-[15px] xl:text-[18px] hover:text-blue-400 hover:duration-300 relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-full after:h-[2px] after:bg-red-500 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-x-100" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="w-1/2 h-full lg:w-[27.5%] flex justify-end items-center gap-5">
+                <a class="hidden md:flex justify-center items-center w-[110px] h-[35px] xl:w-[120px] xl:h-[40px] p-3 bg-red-600 text-white rounded" href="#">Donate</a>
+                <i class="text-[25px] fas fa-user"></i>
+                <i class="text-[25px] fas fa-shopping-bag"></i>
+                <i class="text-[25px] fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    
+<section class="w-full h-[120vh] px-8 flex flex-wrap flex-row-reverse md:flex-row-reverse md:h-[80vh] md:px-0 xl:h-[90vh]">
+    <figure class="relative w-full h-1/2 md:w-1/2 md:h-full xl:w-[54%]">
+        <img class="object-cover w-full h-full" src="./img/avada-campaign-politician-02.jpg" alt="">
+        <figcaption class="z-10 gap-2 absolute flex justify-center items-end flex-col text-white bottom-0 right-10 w-50 h-60 lg:w-[40%] lg:h-[60%] lg:right-10 xl:right-8">
+            <h5 class="text-2xl lg:text-3xl text-end">Don’t just vote,<br>Join us for</h5>
+            <span class="text-3xl lg:text-5xl">Change</span>
+        </figcaption>
+        <div class="absolute inset-0 bg-gradient-to-l from-red-500/35 to-blue-500/15"></div>
+    </figure>
+    <div class="flex flex-col justify-center items-start relative w-full h-1/2 md:w-1/2 md:h-full md:gap-12 xl:w-[46%] bg-[url('./img/bg-graphic-07.png')] bg-no-repeat bg-right bg-[length:120%_102%]">
+        <div class="absolute inset-0 bg-blue-500/10"></div>
+        <h3 class="z-10 text-4xl h-[150px] w-[400px] font-bold pl-12 md:w-[450px] md:pl-16 md:text-4xl lg:text-5xl xl:pl-20">
+            Experienced Leadership For
+            <div class="relative h-[60px] overflow-hidden *:absolute">
+                <p class="top-0 left-0 text-slide1">United Mission</p>
+                <p class="top-[100%] left-0 text-slide2">Better Future</p>
+                <p class="top-[100%] left-0 text-slide3">Your Right</p>
+            </div>
+        </h3>
+        
+        <div class="z-10 flex flex-col justify-between ml-12 h-[150px] w-100 md:ml-16 xl:ml-20">
+            <h5 class="text-2xl lg:text-3xl">
+                prosperity, freedom & equality!
+            </h5>
+            
+            <div class="flex justify-start w-full gap-4">
+                <button class="relative w-[120px] h-[45px] lg:w-[170px] lg:h-[50px] flex justify-center items-center overflow-hidden text-2xl font-semibold text-blue-600 transition-all duration-300 border-2 border-blue-800 rounded cursor-pointer select-none hover:text-white active:border-blue-500 before:absolute before:w-[140px] before:h-36 before:bg-blue-800/50 before:rounded-full before:left-[-5px] before:-translate-x-32 before:duration-500 after:absolute after:w-[140px] after:h-36 after:bg-blue-800/50 after:rounded-full after:right-[-5px] after:translate-x-32 after:duration-500 hover:before:-translate-x-4 hover:after:translate-x-4 lg:hover:before:-translate-x-0 lg:hover:after:translate-x-0">
+                    <p class="z-10 text-base">Take Action</p>
+                </button>
+
+                <button class="relative w-[120px] h-[45px] lg:w-[170px] lg:h-[50px] flex justify-center items-center overflow-hidden text-2xl font-semibold text-red-600 transition-all duration-300 border-2 border-red-800 rounded cursor-pointer select-none hover:text-white active:border-red-500 before:absolute before:w-[140px] before:h-36 before:bg-red-800/50 before:rounded-full before:left-[-5px] before:-translate-x-32 before:duration-500 after:absolute after:w-[140px] after:h-36 after:bg-red-800/50 after:rounded-full after:right-[-5px] after:translate-x-32 after:duration-500 hover:before:-translate-x-4 hover:after:translate-x-4 lg:hover:before:-translate-x-0 lg:hover:after:translate-x-0">
+                    <p class="z-10 text-base">Learn More</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<main class="w-[91%] min-h-screen">
+    <div class="w-full h-[400px] flex flex-wrap justify-center items-center mt-14">
+        <div class="flex justify-center items-center w-full bg-blue-900 h-1/2 lg:h-[75%] md:w-[25%] md:h-[75%]">
+            <i class="text-white duration-300 fas fa-user text-8xl hover:scale-110"></i>
+        </div>
+        <figure class="relative w-full h-1/2 lg:h-[75%] md:w-[75%] md:h-[75%]">
+            <img class="w-full h-full" src="img/political-banner-01.png" alt="">
+            <figcaption class="absolute text-white bottom-10 left-10 *:text-2xl">
+                <h4>Your Voice, Our Priority –</h4>
+                <h4>Let’s Shape The Future Together!</h4>
+            </figcaption>
+        </figure>
+    </div>
+    
+    <div class="h-[750px] w-full flex flex-col gap-10 justify-center items-center md:flex-row md:h-[400px]">
+        <figure class="relative w-full h-[40%] md:w-1/3 md:h-[90%]">
+            <img class="w-full h-full" src="img/usa-map-bg-1.png" alt="">
+            <figcaption class="absolute left-14 top-14 md:left-20 md:top-20">
+                <h2 class="text-5xl">The Manifesto</h2>
+                <p class="mt-5 text-7xl">2025</p>
+            </figcaption>
+        </figure>
+        <div class="w-[90%] h-[40%] md:w-2/3 md:h-[90%] flex flex-col items-center justify-center">
+            <p class="w-full text-2xl leading-10 md:w-[70%]">We strive to implement policies that will create jobs, improve healthcare access and protect our natural resources. Vote for an equal opportunity, true guidance and your stable future.</p>
+            <div class="w-[100%] flex justify-start md:w-[70%] my-5">
+                <button class="h-[45px] w-[180px] flex justify-center items-center font-bold border-3 border-[#FF0072] rounded text-[#FF0072] no-underline transition-all duration-300 ease-in-out z-[1] shadow-[0_2px_10px_rgba(0,0,0,0.16),0_3px_6px_rgba(0,0,0,0.1)] text-[18px] tracking-[2px] uppercase relative before:absolute before:top-0 before:left-1/2 before:right-1/2 before:bottom-0 before:opacity-0 before:bg-[#FF0072] before:z-[-1] before:transition-all before:duration-500 before:ease-in-out hover:text-white focus:text-white hover:before:left-0 hover:before:right-0 hover:before:opacity-100 focus:before:left-0 focus:before:right-0 focus:before:opacity-100 active:scale-90">
+                    Read More
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-[130px] flex justify-center">
+        <div class="relative w-full bg-[#537fc1] h-20 overflow-hidden">
+            <div class="absolute inset-0 pointer-events-none custom-gradient flex justify-center items-center gap-5 *:flex *:items-center *:text-[#ced2d7]">
+                <div class="absolute flex items-center justify-center w-full gap-8 text-center text-slide4 lg:gap-10">
+                    <div class="text-[15px] md:text-[16px] lg:text-xl">America Is The Big Demon</div>
+                    <div class="text-[15px] md:text-[16px] lg:text-xl">Long live Iran</div>
+                    <div class="text-[15px] md:text-[16px] lg:text-xl">Down Whith Israel</div>
+                    <div class="hidden text-[14px] sm:flex md:text-[16px] lg:text-xl">America can do no wrong</div>
+                </div>
+                
+                <div class="absolute flex justify-center items-center text-center gap-8 left-[100%] w-full text-slide5 lg:gap-10">
+                    <div class="text-[15px] md:text-[16px] lg:text-xl lg:gap-5">America Is The Big Demon</div>
+                    <div class="text-[15px] md:text-[16px] lg:text-xl lg:gap-5">Long live Iran</div>
+                    <div class="text-[15px] md:text-[16px] lg:text-xl lg:gap-5">Down Whith Israel</div>
+                    <div class="hidden text-[14px] sm:flex md:text-[16px] lg:text-xl lg:gap-5">America can do no wrong</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-[2000px] md:h-[750px] flex flex-col justify-between md:flex-row md:gap-5 *:h-[500px] *:relative *:md:w-1/3 *:md:h-[400px] *:bg-red-300">
+<figure class="relative w-full">
+    <img class="object-cover w-full h-full bg-center" src="img/health-education-1.jpg" alt="">
+    <figcaption class="relative flex flex-col justify-center gap-3 p-4 w-full bg-gray-100 h-[200px] md:h-[260px]">
+        <i class="text-[30px] fas fa-ambulance animated-svg md:text-[35px]"></i>
+        <h2 class="w-full text-2xl md:text-lg lg:text-2xl lg:my-3 xl:text-3xl">Health & Education</h2>                
+        <p>Fames enim sed vality morbys hend rerit volutpat augue tempor.</p>
+        <a class="group w-[85px] h-7 flex justify-center items-center text-black border-b-2 border-blue-500 text-sm font-medium relative overflow-hidden no-underline" href="#">
+            <span class="absolute transition-transform duration-300 ease-in-out translate-y-0 group-hover:translate-y-[-100%]">Learn More</span>
+            <span class="absolute transition-transform duration-300 ease-in-out translate-y-full group-hover:translate-y-[0]">Learn More</span>
+        </a>
+    </figcaption>
+</figure>
+<figure class="relative w-full">
+    <img class="object-cover w-full h-full bg-center" src="img/diplomatic-relations-1.jpg" alt="">
+    <figcaption class="relative flex flex-col justify-center gap-3 p-4 w-full bg-gray-100 h-[200px] md:h-[260px]">
+        <i class="text-[30px] fas fa-asterisk animated-svg md:text-[35px]"></i>
+        <h2 class="w-full text-2xl md:text-lg lg:text-2xl lg:my-3 xl:text-3xl">Diplomatic Relation</h2>                
+        <p>Fames enim sed vality morbys hend rerit volutpat augue tempor.</p>
+        <a class="group w-[85px] h-7 flex justify-center items-center text-black border-b-2 border-blue-500 text-sm font-medium relative overflow-hidden no-underline" href="#">
+            <span class="absolute transition-transform duration-300 ease-in-out translate-y-0 group-hover:translate-y-[-100%]">Learn More</span>
+            <span class="absolute transition-transform duration-300 ease-in-out translate-y-full group-hover:translate-y-[0]">Learn More</span>
+        </a>
+    </figcaption>
+</figure>
+<figure class="relative w-full">
+    <img class="object-cover w-full h-full bg-center" src="img/economic-growth-1.jpg" alt="">
+    <figcaption class="relative flex flex-col justify-center gap-3 p-4 w-full bg-gray-100 h-[200px] md:h-[260px]">
+        <i class="text-[30px] fas fa-american-sign-language-interpreting animated-svg md:text-[35px]"></i>
+        <h2 class="w-full text-2xl md:text-lg lg:text-2xl lg:my-3 xl:text-3xl">Economic Grow</h2>                
+        <p>Fames enim sed vality morbys hend rerit volutpat augue tempor.</p>
+        <a class="group w-[85px] h-7 flex justify-center items-center text-black border-b-2 border-blue-500 text-sm font-medium relative overflow-hidden no-underline" href="#">
+            <span class="absolute transition-transform duration-300 ease-in-out translate-y-0 group-hover:translate-y-[-100%]">Learn More</span>
+            <span class="absolute transition-transform duration-300 ease-in-out translate-y-full group-hover:translate-y-[0]">Learn More</span>
+        </a>
+    </figcaption>
+</figure>
+    </div>
+     
+<section class="w-full h-[800px] flex flex-wrap mt-60 bg-slate-500 md:mt-0">
+    <figure class="relative w-full h-[25%]">
+        <img class="object-center w-full h-full md:object-top" src="img/campaign-video-bg-01.jpg" alt="">
+        <div class="absolute inset-0 bg-gradient-to-l from-red-700/95 to-blue-700/85"></div>
+    </figure>
+    <div class="w-full h-[75%] flex flex-wrap justify-center bg-[url('img/section-bg-01-min.png')]">
+        <div class="inset-0 flex flex-wrap justify-center w-full h-full bg-blue-950/50">  
+            <div class="flex items-center flex-wrap pt-3 h-2/6 w-[90%] md:h-[1/2] lg:flex-col md:justify-center md:gap-8">
+                <h4 class="text-3xl font-bold text-transparent bg-clip-text handline">Join our campaign</h4>
+                <p class="text-xl text-white md:text-center md:w-[80%] lg:w-full">Join the millions of people fighting for their rights and country’s economic growth.</p>
+            </div>
+            <form class="flex justify-center flex-wrap w-full h-4/6 *:w-[90%] *:h-[50px] *:md:w-1/3 md:gap-3 md:h-1/2" action="">
+                <input class="pl-5 outline-none" type="text" name="name" placeholder="FirstName" id="">
+                <input class="pl-5 outline-none" type="text" name="name" placeholder="LastName" id="">
+                <input class="pl-5 outline-none" type="email" name="name" placeholder="Email" id="">
+                <input class="pl-5 outline-none" type="number" name="name" placeholder="ZipCode" id="">
+                <input class="pl-5 outline-none" type="text" name="name" placeholder="Phone" id="">
+                <button class="text-xl text-white bg-red-600">Join The campaign</button>
+            </form>
+        </div>
+    </div>
+</section>
+</main>
+
+<div class="w-[91%] h-[1700px] gap-2 flex flex-col md:grid md:h-[800px] md:grid-cols-2 md:gap-4 lg:h-[500px] lg:flex lg:flex-row lg:justify-center lg:gap-10 overflow-hidden mt-20 duration-300">
+    <figure class="card w-full h-[420px] md:h-full md:w-full lg:w-[20%] lg:flex-none lg:even:translate-y-5 lg:odd:-translate-y-5 lg:hover:flex-grow-[3] lg:hover:w-[30%] transition-all duration-300 relative">
+        <img class="object-cover w-full h-full" src="img/about-2.jpg" alt="">
+        <div class="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 bg-black/50 hover:opacity-100">
+            <figcaption class="text-lg font-semibold text-center text-white">
+                <h3 class="mb-10 text-3xl">Meet Our Candidate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempore.</p>
+            </figcaption>
+        </div>
+    </figure>
+    
+    <figure class="card w-full md:w-full lg:w-[20%] lg:flex-none lg:even:translate-y-5 lg:odd:-translate-y-5 lg:hover:flex-grow-[3] lg:hover:w-[30%] transition-all duration-300 relative">
+        <img class="object-cover w-full h-full" src="img/blog-leadership-revolution.jpg" alt="">
+        <div class="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 bg-black/50 hover:opacity-100">
+            <figcaption class="text-lg font-semibold text-center text-white">
+                <h3 class="mb-10 text-3xl">USA Campaign Highlights</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempore.</p>
+            </figcaption>
+        </div>
+    </figure>
+    
+    <figure class="card w-full md:w-full lg:w-[20%] lg:flex-none lg:even:translate-y-5 lg:odd:-translate-y-5 lg:hover:flex-grow-[3] lg:hover:w-[30%] transition-all duration-300 relative">
+        <img class="object-cover w-full h-full" src="img/blog-policies-uplift.jpg" alt="">
+        <div class="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 bg-black/50 hover:opacity-100">
+            <figcaption class="text-lg font-semibold text-center text-white">
+                <h3 class="mb-10 text-3xl">Uplifting Policies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempore.</p>
+            </figcaption>
+        </div>
+    </figure>
+    
+    <figure class="card w-full md:w-full lg:w-[20%] lg:flex-none lg:even:translate-y-5 lg:odd:-translate-y-5 lg:hover:flex-grow-[3] lg:hover:w-[30%] transition-all duration-300 relative">
+        <img class="object-cover w-full h-full" src="img/blog-streamline-voting.jpg" alt="">
+        <div class="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 bg-black/50 hover:opacity-100">
+            <figcaption class="text-lg font-semibold text-center text-white">
+                <h3 class="mb-10 text-3xl">Streamlined Voting Process</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, tempore.</p>
+            </figcaption>
+        </div>
+    </figure>
+</div>
+    
+<div class="w-full max-w-[91%] mx-auto h-[400px] flex flex-col md:flex-row gap-4 mt-20">
+    <div class="w-full h-full md:w-1/2">
+        <img class="object-cover w-full h-full" src="img/blog-main-usa-1.jpg" alt="Capitol Building">
+    </div>
+
+    <div class="flex flex-col w-full h-full gap-4 md:w-1/2">
+        <div class="flex flex-col justify-between w-full p-4 bg-white border border-gray-200 h-1/2">
+            <div>
+                <h3 class="text-xl font-semibold">Fact-Check: Analyzing Claims From Last Debate</h3>
+                <p class="mt-1 text-sm text-red-500">Debate, Leadership • August 26, 2024</p>
+                <p class="mt-2 text-gray-600">Our Party Approach To Economic Growth</p>
+                <p class="mt-1 text-xs text-gray-500">Politics, Voting • August 26, 2024</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-between w-full p-4 bg-white border border-gray-200 h-1/2">
+            <div>
+                <h3 class="text-xl font-semibold">Future Of Healthcare: The Reforms Proposal</h3>
+                <p class="mt-1 text-sm text-red-500">Campaign, Election • August 26, 2024</p>
+                <p class="mt-2 text-gray-600">Introduction To Climate Policy For Year 2026</p>
+                <p class="mt-1 text-xs text-gray-500">Debate, Politics • August 26, 2024</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section class="bg-slate-100 p-10 flex flex-wrap items-center justify-start gap-7 w-[91%] mt-[350px] text-gray-900 md:mt-[70px] md:justify-between md:flex-nowrap">
+    
+    <div class="flex flex-col w-full gap-5 md:w-1/2">
+            <p class="font-medium text-indigo-600">Make Your Voice Count : Join Us</p>
+            <h1 class="text-3xl font-extrabold md:text-4xl">Renew Your Membership</h1>
+            <p class="max-w-2xl text-lg text-gray-600 md:w-[80%]">Stay with us and Be a part of Growth, Social Justice and A Well-Defined Strategy</p>
+    </div>
+    
+    <div class="flex flex-col items-start w-full gap-5 md:items-center md:w-1/2">
+        <a href="#" class="px-8 py-3 text-center font-semibold text-white transition bg-indigo-700 rounded-md w-[300px] hover:bg-indigo-800">
+          REGISTER & TAKE ACTION
+        </a>
+        
+        <div class="text-center sm:text-left">
+          <p class="text-sm text-gray-500">
+            Help Us & Join Our Campaign Today
+          </p>
+          <p class="text-xl font-bold text-indigo-700">
+            Or Call (800) 555 5555
+          </p>
+        </div>
+    </div>
+</section>
+
+<footer class="w-full py-10 mt-16 text-white bg-blue-900">
+    <div class="w-[91%] mx-auto flex flex-wrap justify-between items-start">
+        <figure class="relative w-full mb-6 md:w-1/4 md:mb-0 group">
+            <img class="w-[200px] h-[200px] mb-4 object-cover rounded-[15px]" src="img/IMG2_0747.JPG" alt="Your Photo">
+            <p class="mt-4 text-sm">Join us in our mission for prosperity, freedom, and equality. Together, we can shape a better future.</p>
+        </figure>
+        <div class="w-full mb-6 md:w-1/4 md:mb-0">
+            <h4 class="mb-4 text-lg font-bold">Quick Links</h4>
+            <ul class="space-y-2">
+                <li><a href="#" class="text-sm transition duration-300 hover:text-blue-300">Home</a></li>
+                <li><a href="#" class="text-sm transition duration-300 hover:text-blue-300">About</a></li>
+                <li><a href="#" class="text-sm transition duration-300 hover:text-blue-300">Events</a></li>
+                <li><a href="#" class="text-sm transition duration-300 hover:text-blue-300">Contact</a></li>
+            </ul>
+        </div>
+        <div class="w-full mb-6 md:w-1/4 md:mb-0">
+            <h4 class="mb-4 text-lg font-bold">Connect With Us</h4>
+            <ul class="flex gap-3">
+                <li class="w-[30px] h-[30px] flex justify-center items-center border border-white rounded hover:bg-[rgb(255,0,0)] transition duration-300">
+                    <a href="#" class="flex items-center justify-center w-full h-full"><i class="text-[15px] fab fa-youtube"></i></a>
+                </li>
+                <li class="w-[30px] h-[30px] flex justify-center items-center border border-white rounded hover:bg-[rgb(24,119,242)] transition duration-300">
+                    <a href="#" class="flex items-center justify-center w-full h-full"><i class="text-[15px] fab fa-facebook-f"></i></a>
+                </li>
+                <li class="w-[30px] h-[30px] flex justify-center items-center border border-white rounded hover:bg-[rgb(228,64,95)] transition duration-300">
+                    <a href="#" class="flex items-center justify-center w-full h-full"><i class="text-[15px] fab fa-instagram"></i></a>
+                </li>
+                <li class="w-[30px] h-[30px] flex justify-center items-center border border-white rounded hover:bg-[rgb(29,161,242)] transition duration-300">
+                    <a href="#" class="flex items-center justify-center w-full h-full"><i class="text-[15px] fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="w-full md:w-1/4">
+            <h4 class="mb-4 text-lg font-bold">Contact Us</h4>
+            <p class="text-sm">Email: amirmahdisalamat6@gmail.com.com</p>
+            <p class="text-sm">Phone: +98 937 335 57 40</p>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
