@@ -17,15 +17,6 @@ Tailwind CSS
 Font Awesome (for icons)
 Ionicons (for extra icons)
 
-Setup ⚙️
-
-Clone the repo:git clone https://github.com/username/repo-name.git
-
-
-Open index.html in a browser. No server needed—it’s all static! 🌐
-To customize the logo, swap your-photo.jpg in the footer with your image 🖼️.
-
-
 Project Structure 📂
 
 index.html: Main website file.
